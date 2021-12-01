@@ -15,7 +15,7 @@ public class Point {
     }
 
     public Point(Point otherPoint) {
-        this.x = otherPoint.y;
+        this.x = otherPoint.x;
         this.y = otherPoint.y;
     }
 
@@ -33,7 +33,8 @@ public class Point {
     public Point createNewTranslatedPoint(double xDelta, double yDelta) {
         double newX = x + xDelta;
         double newY = y + yDelta;
-        return new Point(newX, newY);
+        Point p = new Point(newX, newY);
+        return p;
     }
 
     public boolean equals(Point otherPoint) {
