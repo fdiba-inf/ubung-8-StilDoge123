@@ -5,7 +5,7 @@ public class PointDemo {
         Point point1 = new Point();
         Point point2 = new Point(1, 2);
 
-        System.out.println("Enter point 3:");
+        //System.out.println("Enter point 3:");
         Point point3 = new Point();
         point3.initialize();
 
